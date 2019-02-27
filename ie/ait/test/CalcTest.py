@@ -5,6 +5,7 @@ class MyTestCase(unittest.TestCase):
     def test_something(self):
         myCalc = Calc()
         myCalc.myPrint()
+        myCalc.myPrint()
         self.assertEqual(True, True)
 
 
